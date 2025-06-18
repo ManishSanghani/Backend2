@@ -17,4 +17,8 @@ app.use(express.urlencoded({
 }));  
 app.use(express.static('public')); // Serve static files from the 'public' directory
 app.use(cookieParser());
+
+import userRouter from './routes/user.routes.js';
+// app.use(express.json())  
+app.use("/api/v1/user",userRouter)   
 export {app}  // This file sets up an Express application instance.
