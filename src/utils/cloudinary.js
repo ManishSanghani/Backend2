@@ -8,7 +8,7 @@ cloudinary.config({
     api_secret:process.env.CLOUDINARY_API_SECRET   // Click 'View API Keys' above to copy your API secret
 });
 
-const uploadOncloudinary=async (localfilePath)=>{
+const uploadOnCloudinary=async (localfilePath)=>{
     try {
         // console.log("localfilepath",localfilePath)   
         if(!localfilePath) return null;
@@ -20,16 +20,16 @@ const uploadOncloudinary=async (localfilePath)=>{
         // console.log( "file is uploaded on cloudinary ",response.url)
         fs.unlinkSync(localfilePath) 
         return response;
-    } catch (error) {
+    } catch (error) { 
         if (fs.existsSync(localfilePath)) {
         fs.unlinkSync(localfilePath); // Delete only if file still exists
     }
 
         return null;
     }
-}
+} 
 
-export {uploadOncloudinary}
+export {uploadOnCloudinary}
 // (async function() {
 // // Upload an image
 //      const uploadResult = await cloudinary.uploader
