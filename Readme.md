@@ -1,6 +1,6 @@
-# Backend2
+# mytube
 
-Backend2 is a backend API service designed for a video-sharing platform similar to YouTube. It is built with Node.js, Express, and MongoDB (via Mongoose) and provides robust features for managing users, videos, playlists, comments, subscriptions, and dashboard analytics.
+mytube is a backend API service designed for a video-sharing platform similar to YouTube. It is built with Node.js, Express, and MongoDB (via Mongoose) and provides robust features for managing users, videos, playlists, comments, subscriptions, and dashboard analytics.
 
 ## Features
 
@@ -50,8 +50,8 @@ Backend2 is a backend API service designed for a video-sharing platform similar 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ManishSanghani/Backend2.git
-   cd Backend2
+   git clone https://github.com/ManishSanghani/mytube.git
+   cd mytube
    ```
 
 2. **Install dependencies**
