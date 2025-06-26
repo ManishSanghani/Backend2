@@ -29,6 +29,10 @@ mytube is a backend API service designed for a video-sharing platform similar to
   - Fetch channel statistics (total videos, views, likes, subscribers)
   - Channel-specific video listing with pagination and sorting
 
+## Database Schema
+
+![image1]("C:\Users\ASUS\Downloads\eraser-export-export-6-26-2025-12_01_44-PM\diagram-export-6-26-2025-12_01_44-PM.png")
+
 ## Technology Stack
 
 - **Node.js & Express** – API server and routing
