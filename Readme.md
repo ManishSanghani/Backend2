@@ -31,7 +31,7 @@ mytube is a backend API service designed for a video-sharing platform similar to
 
 ## Database Schema
 
-![image1]("C:\Users\ASUS\Downloads\eraser-export-export-6-26-2025-12_01_44-PM\diagram-export-6-26-2025-12_01_44-PM.png")
+![image1](diagram-export-6-26-2025-12_01_44-PM.png)
 
 ## Technology Stack
 
